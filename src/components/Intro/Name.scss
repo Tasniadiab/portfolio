@@ -1,50 +1,61 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,600;1,400&family=Cormorant:wght@300&family=Gothic+A1:wght@100&family=Hanken+Grotesk:wght@100&display=swap');
+
 .container{
     overflow-x:hidden;
+    width:100%
 }
 .title{
-    font-family: 'Cormorant Garamond', serif;
+    
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 300;
     justify-content: center;
     display: flex;
+    flex-direction: column;
     align-items:center;
     text-align: center;
-    margin-top: 30px;
-    font-size: clamp(2rem, 3.75vw + 1rem, 7.5rem);
-}
-.first{
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-    gap: 2rem;
-    align-items:center;
+    height: 200px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    color: #482e1d;
+    font-size: clamp(.25rem, 3.75vw + .25rem, 7.5rem);
+    transition: margin-top 1s ease;
 
-    position: relative;
-    
+    @media (max-width: 1100px){
+        margin-top: 25px;
+    }
+
+    @media (max-width: 600px){
+        margin-top: 0px;
+    }
 }
-.sexy_line{ 
-    display:block;
-    border:none;
-    color:rgb(30, 23, 23);
-    height:1px;
-    background:black;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
-}
-.painting{
-    width: 600px;
-}
-.painting img{
-    width: clamp(30rem, 8vw + 2rem, 50rem);
-    
-}
+
 #name{
-    color: #45271f;
+    text-transform: uppercase;
+    letter-spacing: -.1em;
+    word-spacing: .1em;
+    line-height: 0.9em;
+    margin-bottom: 0;
 }
+#name::first-letter{
+    font-size: 1.3em;
+    letter-spacing: -.2em;
+}
+.seventh-letter {
+    font-size: 1.3em;
+    letter-spacing: -.1em;
+  }
 
-#description{
-    color: #45271f;
-    font-size: clamp(.025rem, 1vw + .1rem, 1rem);
-  
+  .divide{
+    display:flex;
+    margin:15px;
+    top:10px;
+    align-items:center;
     
+}
+.divide img{
+    width: 650px;
+    height: auto;
+    max-width: 50vw;
 }
 

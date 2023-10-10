@@ -1,0 +1,56 @@
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7em;
+    margin:4em auto;
+    width: 75vw;
+    left:0;right:0;
+}
+.description{
+    font-family: 'Gothic A1', sans-serif;
+    word-spacing: .25em;
+    border: .5px white;
+    letter-spacing: -.05em;
+    color: #895d2b;
+    font-size: clamp(1rem, 1.45vw + .1rem, 8rem);
+    width: 55%;
+    
+    
+}
+h2{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 400;
+    font-style: italic;
+    color:#482e1d;
+    font-size: 2.5em;
+    margin: 70px 0px 0px 0px;
+   
+
+}
+h3{
+    margin: 0;
+    line-height: 1.6;
+    
+}
+
+:root {
+    --min-width: 100px; /* Set the minimum width */
+    --max-width: 400px; /* Set the maximum width */
+  }
+
+.painting {
+    display: inline-block;
+    width: var(--max-width);
+    overflow: hidden;
+    transition: max-width 1s ease;
+}
+.painting img{
+  
+    width: 90%;
+    height: auto;
+
+}
+
+
+
