@@ -45,27 +45,50 @@ $primary-color: #ffd700;
     transform: rotate(360deg);
   }
 }
+
+// .card{
+//   margin-top: -500px;
+//   transition: margin-top 1s ease;
+
+//   @media (max-width: 1100px){
+//     margin-top: -440px;
+// }
+// @media (max-width: 950px){
+//   margin-top: -400px;
+// } 
+// @media (max-width: 600px){
+//     margin-top: 0px;
+// }
+// }
+
 #top {
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   min-width: 100%;
-  height: 100%;
+  height: fit-content;
   object-fit: cover;
+  z-index: 1; /* Set a higher z-index value */
+  pointer-events: none;
   
 }
-#top1{
-  position: relative;
-  display: block;
-  z-index: 100;
-  
-  transition: margin-bottom 0.5s ease;
-}
+
+#top1 {
  
+  display: block;
+  z-index: -1; /* Set a lower z-index value */
+  transition: margin-bottom 0.5s ease;
+  
+}
+
+
+
 .divide2{
   display: flex;
   margin:0 auto;
   align-items: center;
   flex-direction: column;
+  background-image: radial-gradient(#fffbf9,#f9f2ec, #f9f2ec);
 }
 .divide2 img{
   width: 40vw;
@@ -73,21 +96,7 @@ $primary-color: #ffd700;
  
 
 }
-.paper{
-  position: relative;
+
+.alternate-2{
+  background-color: #ede0d1;
 }
-.paper img{
-  position: absolute;
-  display: block;
-  width:40vw;
-  transform: rotate(-10deg);
-  z-index: -100;
-  margin-top:1em;
-  margin-left: 1em;
-  
-}
-
-
-
-
-

@@ -1,0 +1,121 @@
+#gallery-wrapper{
+    width: 40vw;
+    height: 100%
+    
+}
+#gallery-wrapper img{
+    width: 100%;
+}
+
+
+
+.sub-divide{
+    display:flex;
+    margin:15px;
+    margin-top: 0;
+    top:10px;
+    align-items:center;
+    
+}
+.sub-divide img{
+    width: 250px;
+    height: auto;
+    max-width: 50vw;
+}
+
+
+.arrow {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    transition: 0.4s ease-in-out;
+   
+
+    img {
+        width: auto;
+        height: 10px;
+    }
+}
+#gallery-nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dots-container {
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    gap: .04rem; /* Adjust the gap between dots as needed */
+}
+.dot {
+    width: 0;
+    height: 0;
+    border: 7.5px solid transparent;
+    border-bottom-color: #dfa02a;
+    position: relative;
+    top: -7px;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+  
+  .dot:after {
+    content: '';
+    position: absolute;
+    left: -7.5px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border: 7.5px solid transparent;
+    border-top-color: #dfa02a;
+  }
+  
+  .active {
+    width: 0;
+    height: 0;
+    border: 8px solid transparent; /* Adjust the size as needed */
+    border-bottom: 14px solid #28562a; /* Use border-bottom for the bottom border */
+    position: relative;
+    top: -8px; /* Adjust the top position to center it vertically */
+  }
+  
+  .active:after {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 14px;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent; /* Adjust the size as needed */
+    border-top: 14px solid #28562a; /* Use border-top for the top border */
+  }
+
+.section-title{
+    font-size: 2.5vw;
+}
+.project-container{
+    display: flex;
+    gap:2rem;
+    width:80vw;
+    margin: 30px;
+    font-size: clamp(1rem, 1vw + .1rem, 8rem);
+}
+
+#project-name{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+}
+
+#project-description{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+    word-spacing: .25em;
+}
+  
