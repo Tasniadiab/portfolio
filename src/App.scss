@@ -11,6 +11,7 @@ body{
 }
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -23,7 +24,10 @@ body{
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.full-body{
+  height: auto;
+  overflow-y:scroll;
+}
 html.lenis {
   height: auto;
 }

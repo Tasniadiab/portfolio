@@ -1,5 +1,8 @@
 html {
-  font-size: 62.5%
+  font-size: 62.5%;
+  scroll-behavior: auto;
+  overscroll-behavior-y: none;
+  height: auto;
 }
 
 body {
@@ -11,7 +14,7 @@ body {
   background-color:  #f9f2ec;
   // background: #fdf9f6;
   
-  overflow: hidden;
+
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
