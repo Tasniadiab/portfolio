@@ -17,15 +17,16 @@ import Divider2 from './assets/Divider3.svg';
 function App() {
   const [layoutMargin, setLayoutMargin] = useState(0);
 
-  const handleResize = () => {
-    const top = document.getElementById('top');
-    const layoutSection = document.getElementById('layout-section');
-    const middleOfTop = top.getBoundingClientRect().height / 1;
-    setLayoutMargin(middleOfTop * -1);
-  };
-
   useEffect(() => {
-    handleResize();
+    const handleResize = () => {
+      const top = document.getElementById('top');
+      const layoutSection = document.getElementById('layout-section');
+      const middleOfTop = top.getBoundingClientRect().height /1;
+      setLayoutMargin(middleOfTop * -1);
+    };
+
+    handleResize(); // Execute it once after the initial render
+
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
