@@ -2,6 +2,7 @@
 .first{
     display: flex;
     flex-direction: row;
+    position: relative;
     justify-content: space-around;
     gap: 7%;
     margin:4em auto;
