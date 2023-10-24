@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a2c83d34.css",
-    "main.js": "/static/js/main.e5e60eb9.js",
+    "main.js": "/static/js/main.79a63410.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Tasnia_painting.svg": "/static/media/Tasnia_painting.6cc3685d8cd49ad5b26a6bb5b8573208.svg",
     "static/media/Sunday1.png": "/static/media/Sunday1.b90c72eb9dbab2274ed7.png",
@@ -41,11 +41,11 @@
     "static/media/divider.svg": "/static/media/divider.4af9c963d30e09441127d068664cbf70.svg",
     "index.html": "/index.html",
     "main.a2c83d34.css.map": "/static/css/main.a2c83d34.css.map",
-    "main.e5e60eb9.js.map": "/static/js/main.e5e60eb9.js.map",
+    "main.79a63410.js.map": "/static/js/main.79a63410.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2c83d34.css",
-    "static/js/main.e5e60eb9.js"
+    "static/js/main.79a63410.js"
   ]
 }
