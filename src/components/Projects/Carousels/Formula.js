@@ -9,12 +9,16 @@ const Formula = () => {
             title: "Formula 1 Test"
         },
         {
-            source: require('../../../assets/formula1.png'),
-            title: "Formula 1 Test"
-        },
-        {
             source: require('../../../assets/formula2.png'),
             title: "Formula 2 Test"
+        },
+        {
+            source: require('../../../assets/formula3.png'),
+            title: "Formula 3 Test"
+        },
+        {
+            source: require('../../../assets/formula4.png'),
+            title: "Formula 4 Test"
         }
     ]);
 
