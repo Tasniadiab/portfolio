@@ -28,8 +28,18 @@ function App() {
     handleResize(); // Execute it once after the initial render
 
     window.addEventListener('resize', handleResize);
+
+    // Check when the relevant image is loaded
+    const img = document.getElementById('top-loaded');
+    if (img) {
+      img.addEventListener('load', handleResize);
+    }
+
     return () => {
       window.removeEventListener('resize', handleResize);
+      if (img) {
+        img.removeEventListener('load', handleResize);
+      }
     };
   }, []);
   const lenis = new Lenis({
@@ -61,7 +71,7 @@ requestAnimationFrame(raf)
         <div className='plz1'>
           <div id="top">
             <div id="top1">
-              <img src={Border} alt='border' />
+              <img id="top-loaded" src={Border} alt='border' />
             </div>
           </div>
           <div className='card w-100 mt-2' style={{ marginTop: layoutMargin + 'px' }}>
