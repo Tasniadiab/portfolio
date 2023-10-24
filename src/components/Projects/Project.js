@@ -32,7 +32,7 @@ const Projects = () => {
                     </p>
                     <div className='code-section'>
                     See the code 
-                    <Link className='code-link' to='https://github.com/Tasniadiab/formula-one' target="_blank" rel="noreferrer noopener">
+                    <Link className='code-link' to='https://github.com/Tasniadiab/formula1' target="_blank" rel="noreferrer noopener">
                         <button className="arrow" id="code-arrow" >
                                 <img src={Arrow} />
                                 </button>
