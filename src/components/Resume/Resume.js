@@ -4,7 +4,9 @@ import FadeInSection from "./FadeIn";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './Resume.scss';
-import Frame from '../../assets/skills_frames.svg';
+import Divider from '../../assets/divider.svg';
+import FrameTop from '../../assets/skills_frame_top.svg';
+import FrameBottom from '../../assets/skills_frame_bottom.svg';
 import Bootstrap from '../../assets/skills_logo/bootstrap.png';
 import CSS from '../../assets/skills_logo/css-icon.png';
 import Django from '../../assets/skills_logo/django.png';
@@ -36,12 +38,15 @@ const Resume = () =>{
 
     return(
         <Container>
-        <div className='section_container'>
-                <div className='section-title'>
-        <h1>My skills include ~</h1>
+        <div className='skill-container'>
+                <div className='section-title' id="skill-section">
+        <h1 id='skills-1'>My skills include ~</h1>
+        <h2 id="skills-2">These are the tools that I am most familiar
+with and build things every day.</h2>
+       
         </div>
         <div className ="skill-frame">
-                    <img src={Frame} alt="skill-frame"/>
+                    <div className='skill-top'><img src={FrameTop} alt="skill-frame"/></div>
                     <div className='logo-container'>
                         <div className="logo">
                         <FadeInSection>
@@ -75,7 +80,7 @@ const Resume = () =>{
 
                         </div>
                     </div>
-                    
+                    <div className='skill-bottom'><img src={FrameBottom} alt="skill-frame"/></div>
                 </div>
         </div>
         </Container>

@@ -6,7 +6,9 @@ $primary-color: #ffd700;
 //   font-family: 'Helvetica Neue';
 //   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
 // }
-
+body{
+  height: 100vh;
+}
 .App {
   text-align: center;
 }
@@ -20,6 +22,26 @@ $primary-color: #ffd700;
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
 }
 
 .App-header {
@@ -97,6 +119,27 @@ $primary-color: #ffd700;
 
 }
 
+.divide3{
+  display: flex;
+  margin:0 auto;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.divide3 img{
+  width: 50vw;
+  height: auto;
+}
+
 .alternate-2{
+  background-color: #e9d6c6;
+}
+
+.alternate-3{
   background-color: #ede0d1;
+  margin-bottom: 0;
+}
+
+footer{
+  text-align: end;
 }

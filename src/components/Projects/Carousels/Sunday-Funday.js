@@ -5,7 +5,7 @@ import Arrow from '../../../assets/Arrow.png';
 const Sunday = () => {
     const [sunday] = useState([
         {
-            source: require('../../../assets/Sunday1.PNG'),
+            source: require('../../../assets/Sunday1.png'),
             title: "Sunday 1"
         },
         {
@@ -15,6 +15,10 @@ const Sunday = () => {
         {
             source: require('../../../assets/Sunday3.PNG'),
             title: "Sunday 3"
+        },
+        {
+            source: require('../../../assets/Sunday4.png'),
+            title: "Sunday 4"
         }
     ])
     let [index, setIndex] = useState(0);

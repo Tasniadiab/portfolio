@@ -6,7 +6,9 @@ import Layout from './components';
 import Bio from './components/Intro/Bio';
 import Projects from './components/Projects/Project';
 import Resume from './components/Resume/Resume';
-import Divider from './assets/Divider2.svg'
+import Contact from './components/Contact/Contact';
+import Divider from './assets/Divider2.svg';
+import Divider2 from './assets/Divider3.svg';
 
 
 
@@ -61,8 +63,8 @@ requestAnimationFrame(raf)
               <img src={Border} alt='border' />
             </div>
           </div>
-          <div className='card w-100 mt-2'>
-            <div className="alternate1" style={{ marginTop: layoutMargin + 'px' }}>
+          <div className='card w-100 mt-2' style={{ marginTop: layoutMargin + 'px' }}>
+            <div className="alternate1" >
                 <Layout />
                 <Bio />
             </div>
@@ -74,11 +76,19 @@ requestAnimationFrame(raf)
     
     <div className='alternate-2'>
       <Projects/>
-      
+      <div className='divide3'>
+                    <img src={Divider2} alt="divider" />
+                    </div>
     </div>
     
     <div>
       <Resume/>
+    </div>
+    <div className='alternate-3'>
+      <Contact/>
+      <footer >
+      <p>© 2023 Tasnia Bhuiyan</p>
+    </footer>
     </div>
     
     

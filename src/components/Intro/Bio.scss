@@ -2,14 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 7em;
+    gap: 7%;
     margin:4em auto;
     width: 75vw;
     left:0;right:0;
 }
 .description{
     font-family: 'Gothic A1', sans-serif;
-    
     word-spacing: .25em;
     border: .5px white;
     letter-spacing: -.05em;
@@ -43,6 +42,7 @@
 
 .painting {
     display: inline-block;
+    position: relative;
     width: var(--max-width);
     overflow: hidden;
     transition: max-width 1s ease;
@@ -53,9 +53,27 @@
     height: auto;
 }
 
+#words{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 600;
+    font-size: clamp(1rem, 1.45vw + .1rem, 8rem);
+    color:#2b276b;
+    position: absolute;
+    bottom:65.5%;
+    right:56%;
+    white-space: nowrap
+}
+
+#words span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }  
 .link-container{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
     
 }
 
