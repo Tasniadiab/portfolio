@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://tasnia-bhuiyan.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
