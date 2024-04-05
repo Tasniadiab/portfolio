@@ -80,11 +80,16 @@
 }
 
 .logo img{
-    max-width: 14%; /* Allow images to scale proportionally */
+    max-width: 14%; 
     background: rgba(255, 255, 255, 0.606);
     border-radius: 50%;
     padding: .25em;
     margin: .5em;
 }
 
+@media (max-width:500px){
+    .logo img{
+        max-width: 12.25%;
+    }
+}
 

@@ -81,10 +81,14 @@ const Bio = () => {
                 </div>
                 
                 <div className ="painting">
-                    <div id='words'>
-                    <span className="txt-rotate" data-period="2000" data-rotate={JSON.stringify(titles)}><span className="wrap">{text}</span></span>
+                    <div className="painting-img-container">
+                        <img src={TasniaPainting} alt="developer" />
+                        <div id='words'>
+                            <span className="txt-rotate" data-period="2000" data-rotate={JSON.stringify(titles)}>
+                                <span className="wrap">{text}</span>
+                            </span>
+                        </div>
                     </div>
-                    <img src={TasniaPainting} alt="developer"/>
                 </div>
             </div>
             </div>

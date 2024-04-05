@@ -20,7 +20,7 @@ const Projects = () => {
                 </span>
             </div>
             <div className="project-container"> 
-                <div>
+                <div id='slides'>
                 <Formula/>
                 </div>
                 <div className='project'>
@@ -58,7 +58,7 @@ const Projects = () => {
                                 </Link>
                     </div>
                 </div>
-                <div>
+                <div id='slides'>
                 <Sunday/>
                 </div>
             </div>

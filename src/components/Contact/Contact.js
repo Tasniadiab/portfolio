@@ -78,7 +78,7 @@ const Contact = () => {
                 <Grid className="align-items-center">
                     <Grid item md={6} className="contact-form">
                         <Grid item md={6} className="contact-form-1">
-                        <img src={ContactImg} alt="contact"/>
+                        <img src={ContactImg} alt="contact" id="contactImg"/>
                         <div className='title-form'>
                         <h2>Let's Connect!</h2>
                         <form onSubmit={handleSubmit}>
