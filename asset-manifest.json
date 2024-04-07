@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.38c004c3.css",
-    "main.js": "/static/js/main.80fb98a0.js",
+    "main.js": "/static/js/main.60446a22.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Tasnia_painting.svg": "/static/media/Tasnia_painting.6cc3685d8cd49ad5b26a6bb5b8573208.svg",
     "static/media/Sunday1.png": "/static/media/Sunday1.b90c72eb9dbab2274ed7.png",
@@ -33,6 +33,7 @@
     "static/media/text-background.svg": "/static/media/text-background.06a64c222d09845bebe9e46ea5781637.svg",
     "static/media/css-icon.png": "/static/media/css-icon.20ff7a058c52d92dded4.png",
     "static/media/django.png": "/static/media/django.7eb248bfdd7c4446a1c6.png",
+    "static/media/progress.png": "/static/media/progress.326fbe4edf7100583cc5.png",
     "static/media/aws-logo.png": "/static/media/aws-logo.a45e38c738993b948592.png",
     "static/media/skills_frame_bottom.svg": "/static/media/skills_frame_bottom.7e24cabfcefc8b8a41aceac0704c57b1.svg",
     "static/media/Creative-Cloud.png": "/static/media/Creative-Cloud.ba5cdc882a6ae1542fe7.png",
@@ -41,11 +42,11 @@
     "static/media/divider.svg": "/static/media/divider.4af9c963d30e09441127d068664cbf70.svg",
     "index.html": "/index.html",
     "main.38c004c3.css.map": "/static/css/main.38c004c3.css.map",
-    "main.80fb98a0.js.map": "/static/js/main.80fb98a0.js.map",
+    "main.60446a22.js.map": "/static/js/main.60446a22.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38c004c3.css",
-    "static/js/main.80fb98a0.js"
+    "static/js/main.60446a22.js"
   ]
 }
