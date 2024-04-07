@@ -4,6 +4,7 @@ import './Project.scss';
 import { Link } from 'react-router-dom';
 import Formula from './Carousels/Formula';
 import Sunday from './Carousels/Sunday-Funday';
+import Olfacto from './Carousels/Olfacto';
 import Text from '../../assets/text-background.svg';
 import Arrow from '../../assets/Arrow.png';
 import Divider from '../../assets/divider.svg';
@@ -60,6 +61,26 @@ const Projects = () => {
                 </div>
                 <div id='slides'>
                 <Sunday/>
+                </div>
+            </div>
+            <div className="project-container"> 
+                <div id='slides'>
+                <Olfacto/>
+                </div>
+                <div className='project'>
+                <h2 id='project-name'> Olfacto </h2>
+                <img id='project-background' src={Text} alt="text" />
+                <p id='project-description'> A one stop shop for all Fragrance Fans. Discover new perfumes, review scents you've tried and more! 
+                    </p>
+                    <div className='code-section'>
+                    See the code 
+                    <Link className='code-link' to='https://github.com/Tasniadiab/olfacto' target="_blank" rel="noreferrer noopener">
+                        <button className="arrow" id="code-arrow" >
+                                <img src={Arrow} />
+                                </button>
+                                </Link>
+                    </div>
+
                 </div>
             </div>
             </div>
